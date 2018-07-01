@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Product">
+        <menu>
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/ic_account"
+                android:title="Account"/>
+            <item
+                android:id="@+id/nav_iot"
+                android:icon="@drawable/ic_bluetooth"
+                android:title="Internet Of Think"/>
+            <item
+                android:id="@+id/nav_security"
+                android:icon="@drawable/ic_fingerprint"
+                android:title="Security"/>
+        </menu>
+    </item>
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_homep"
+                android:title="Home"/>
+            <item
+                android:id="@+id/nav_computer"
+                android:icon="@drawable/ic_computer"
+                android:title="Computer"/>
+            <item
+                android:id="@+id/nav_android"
+                android:icon="@drawable/ic_android"
+                android:title="Android OS"/>
+        </menu>
+    </item>
+</menu>

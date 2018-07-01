@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lab ListUI</string>
+    <string name="action_settings">Settings</string>
+    <string name="open_menu">Open Menu</string>
+    <string name="close_menu">Close Menu</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="string_list_detail">Material is an adaptable system of guidelines, components, and tools that support the best practices of user interface design. Backed by open-source code, Material streamlines collaboration between designers and developers, and helps teams quickly build beautiful products</string>
+    <string name="title_activity_tab_effect">TabEffectActivity</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="title_activity_full_crud">FullCRUDActivity</string>
+    <string name="crud_list_view">CRUD_ListView</string>
+    <string name="title_activity_full_crud_list">FullCrudListActivity</string>
+    <string name="title_activity_lab_list_view">LabListViewActivity</string>
+    <string name="title_activity_custom_list">CustomListActivity</string>
+    <string name="title_activity_multi_layout_list">MultiLayoutListActivity</string>
+    <string name="title_activity_recycler">RecyclerActivity</string>
+</resources>

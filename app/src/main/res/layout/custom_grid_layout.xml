@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <FrameLayout
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center|bottom"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/check_box_grid"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_gravity="top|right"
+            android:background="#8004f5dd"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textview_content"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Description......."
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

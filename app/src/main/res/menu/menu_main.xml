@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ksn.kraiponn.lablistui.activity.MainActivity">
+
+    <item
+        android:id="@+id/action_second_ativity"
+        android:icon="@drawable/ic_android"
+        android:title="To second activity"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_tab_effect_activity"
+        android:title="To tab effect"
+        android:icon="@drawable/ic_fingerprint"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_listview"
+        android:title="ListView UI"
+        android:icon="@drawable/ic_computer"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_custom_list"
+        android:title="To custom list view"
+        android:icon="@drawable/ic_bluetooth"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_multiple_layout_listview"
+        android:title="To multilayout list"
+        android:icon="@drawable/ic_homep"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_recycler"
+        android:title="To recycler view"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="never" />
+
+</menu>

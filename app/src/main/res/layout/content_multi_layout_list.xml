@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.MultiLayoutListActivity"
+    tools:showIn="@layout/activity_multi_layout_list">
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridView"
+        android:columnWidth="180dp"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="20dp"
+        android:stretchMode="columnWidth"
+        android:numColumns="auto_fit">
+    </GridView>
+
+</LinearLayout>
